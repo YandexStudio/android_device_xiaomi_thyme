@@ -16,5 +16,9 @@
   {
     "repository": "android_vendor_xiaomi_thyme",
     "target_path": "vendor/xiaomi/thyme"
+  },
+  {
+    "repository": "android_packages_apps_GCamGOPrebuilt",
+    "target_path": "packages/apps/GCamGOPrebuilt"
   }
 ]

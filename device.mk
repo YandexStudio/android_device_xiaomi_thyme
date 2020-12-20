@@ -72,6 +72,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES_DEBUG += \
     bootctl
 
+# Camera
+ifeq ($(ARROW_GAPPS), true)
+PRODUCT_PACKAGES += \
+    GCamGOPrebuilt-V2
+endif
+
 # Common init scripts
 PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
