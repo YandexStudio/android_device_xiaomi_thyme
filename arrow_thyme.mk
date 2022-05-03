@@ -13,6 +13,7 @@ $(call inherit-product, device/xiaomi/thyme/device.mk)
 
 # Inherit common ArrowOS configurations
 $(call inherit-product, vendor/arrow/config/common.mk)
+DEVICE_MAINTAINER := Lynnrin
 
 PRODUCT_CHARACTERISTICS := nosdcard
 
