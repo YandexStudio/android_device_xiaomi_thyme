@@ -1,6 +1,20 @@
 [
   {
-    "repository": "android_device_xiaomi_thyme-prebuilt",
-    "target_path": "device/xiaomi/thyme-prebuilt"
+    "repository": "LynnrinChan/android_device_xiaomi_thyme-prebuilt",
+    "target_path": "device/xiaomi/thyme-prebuilt",
+    "remote": "gitlab",
+    "revision" : "arrow-12.1"
+  },
+  {
+    "repository": "android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi"
+  },
+  {
+    "repository": "android_kernel_xiaomi_thyme",
+    "target_path": "kernel/xiaomi/thyme"
+  },
+  {
+    "repository": "android_vendor_xiaomi_thyme",
+    "target_path": "vendor/xiaomi/thyme"
   }
 ]
