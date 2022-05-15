@@ -11,7 +11,6 @@ vendor/lib/rfsa/adsp/misound_res_headphone.bin:product/vendor_overlay/30/lib/rfs
 vendor/lib/rfsa/adsp/misound_res_spk.bin:product/vendor_overlay/30/lib/rfsa/adsp/misound_res_spk.bin|be3e9c6dd2632ad529dd4f4e9a5df5d955ff11c1
 
 # Alipay / WeChat Payment
--app/IFAAService/IFAAService.apk
 -app/SoterService/SoterService.apk
 
 # Alarm

@@ -105,6 +105,10 @@ PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
     android.hidl.manager@1.0
 
+# IFAA
+PRODUCT_PACKAGES += \
+    IFAAService
+
 # Kernel
 PRODUCT_COPY_FILES += \
     $(THYME_PREBUILT)/kernel/dtb.img:dtb.img
